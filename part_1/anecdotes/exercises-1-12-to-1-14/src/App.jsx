@@ -36,7 +36,7 @@ const App = () => {
   return (
     <>
       <h1>Anecdote of the day</h1>
-      <div>{anecdotes[selected]}</div>
+      <div>{anecdotes[s4elected]}</div>
       <div>has {votes[selected]} votes</div>
       <button onClick={voteAnecdote}>vote</button>
       <button onClick={getNextAnecdote}>next anecdote</button>
